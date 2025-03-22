@@ -65,17 +65,28 @@ Open your browser and navigate to `http://localhost:3000`
 
 ```
 weather-dashboard/
+│
 ├── public/
-│   ├── index.html
-│   └── ...
+│   ├── index.html         # HTML entry point
+│   ├── favicon.ico        # Site favicon
+│   ├── manifest.json      # Web app manifest
+│   └── robots.txt         # Search engine instructions
+│
 ├── src/
 │   ├── components/
-│   │   ├── WeatherCard.js
-│   │   └── WeatherCard.css
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-└── README.md
+│   │   ├── WeatherCard.js       # Weather card component
+│   │   ├── WeatherCard.css      # Weather card styling
+│   │   └── WeatherCard.test.js  # Component tests
+│   │
+│   ├── App.js            # Main application component
+│   ├── App.css           # Main application styling
+│   └── index.js          # JavaScript entry point
+│
+├── .env                  # Environment variables file
+├── .gitignore            # Git ignore rules
+├── package.json          # Project dependencies and scripts
+├── package-lock.json     # Locked versions of dependencies
+└── README.md             # Project documentation
 ```
 
 ## Build for Production
